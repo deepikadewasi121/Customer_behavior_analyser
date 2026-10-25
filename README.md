@@ -13,12 +13,7 @@ The goal of this project is to simulate a corporate-grade end-to-end data analyt
 
 Project Workflow
 
-🛠️ How to Use This Project
-Clone the repository
-Open Customer_Shopping_Behavior_Analysis.ipynb notebook
-
 This file contains:
-
 Data Import
 
 Data exploration
