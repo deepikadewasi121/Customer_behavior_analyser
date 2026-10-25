@@ -1,228 +1,58 @@
 📊 Data Analytics Project
 
-📌 Overview
+📌 Project Overview
+The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
 
-This project demonstrates an end-to-end data analytics workflow, from raw data to actionable business insights. It involves data loading, exploratory data analysis (EDA), data cleaning, SQL querying, interactive dashboard development, and report preparation.
+✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
 
-The goal is to transform raw data into meaningful insights that support data-driven decision-making.
+✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
 
-🎯 Project Objectives
+✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
 
-Load and explore a dataset using Python.
+✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
 
-Perform Exploratory Data Analysis (EDA).
+Project Workflow
 
-Clean and preprocess data for accurate analysis.
+🛠️ How to Use This Project
+Clone the repository
 
-Use PostgreSQL to store, manage, and query data.
+git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
+cd customer-trends-data-analysis-SQL-Python-PowerBI
+Open Customer_Shopping_Behavior_Analysis.ipynb notebook
 
-Build an interactive Power BI dashboard.
+This file contains:
 
-Prepare a detailed analytical report.
+Data Import
 
-Create a project presentation using Gamma.
+Data exploration
 
-📂 Dataset
+Data cleaning
 
-The project uses a structured dataset containing records relevant to the selected business problem.
+Connection to SQL Database
 
-Dataset Details:
+Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server
 
-Dataset Name: [Enter Dataset Name]
+Create a database in SQL
 
-Source: [Enter Dataset Source]
+Run Python code to load data into SQL database
 
-Format: CSV / Excel
+Open customer_behavior_sql_queries.sql
 
-Purpose: Identify trends, patterns, relationships, and key performance indicators (KPIs).
+Answer Business Questions using SQL Queries
 
-Note: Update this section with the actual dataset name, source, and description before publishing.
+Connect the SQL Database to Power BI
 
-🛠️ Tools & Technologies
+Open customer_behavior_dashboard.pbix
 
-Tool
+Create interactive dashboard in Power BI
 
-Purpose
+Create Project Report and Presentation
 
-Python
+Create project report
 
-Data analysis and preprocessing
+Build presentation deck using Gamma AI
 
-Pandas
 
-Data manipulation and cleaning
 
-NumPy
 
-Numerical operations
 
-Matplotlib & Seaborn
-
-Data visualization and EDA
-
-Jupyter Notebook
-
-Interactive analysis
-
-PostgreSQL
-
-Data storage and SQL analysis
-
-SQL
-
-Data querying and aggregation
-
-Power BI
-
-Interactive dashboard development
-
-Gamma
-
-Presentation creation
-
-Microsoft Excel
-
-Optional data inspection and validation
-
-🔄 Project Workflow
-
-1. Data Loading
-
-Import the dataset into Python using Pandas.
-
-Inspect the dataset structure, columns, and data types.
-
-Review the first few records and understand the available variables.
-
-2. Exploratory Data Analysis (EDA)
-
-Analyze dataset dimensions and summary statistics.
-
-Identify trends, patterns, and relationships.
-
-Examine missing values, duplicate records, and outliers.
-
-Create visualizations to understand the data distribution.
-
-3. Data Cleaning
-
-Handle missing values using appropriate methods.
-
-Remove duplicate records where necessary.
-
-Correct inconsistent data types and formats.
-
-Standardize column names and categorical values.
-
-Validate the cleaned dataset before further analysis.
-
-4. PostgreSQL & SQL Analysis
-
-Create a database and table in PostgreSQL.
-
-Import the cleaned dataset into the database.
-
-Execute SQL queries to extract meaningful insights.
-
-SQL concepts used:
-
-SELECT and WHERE
-
-GROUP BY and ORDER BY
-
-Aggregate functions such as SUM(), AVG(), and COUNT()
-
-JOIN operations where multiple tables are available
-
-Subqueries and Common Table Expressions (CTEs), where required
-
-The SQL analysis helps answer relevant business questions and identify key metrics.
-
-5. Power BI Dashboard
-
-Connect Power BI to the cleaned dataset or PostgreSQL database.
-
-Create relevant charts, tables, and KPI cards.
-
-Use filters and slicers for interactive exploration.
-
-Design a clear and user-friendly dashboard.
-
-Highlight important trends and findings.
-
-6. Report Preparation
-
-Prepare a structured analytical report containing:
-
-Project introduction and objectives
-
-Dataset description
-
-Data cleaning methodology
-
-EDA findings
-
-SQL queries and insights
-
-Dashboard overview
-
-Key findings and recommendations
-
-Conclusion
-
-7. Presentation Using Gamma
-
-Create a professional presentation summarizing:
-
-Business problem and objectives
-
-Dataset and tools used
-
-Analysis methodology
-
-Important visualizations
-
-Key insights and recommendations
-
-Conclusion
-
-The presentation should communicate the project clearly and concisely.
-
-📈 Dashboard
-
-The Power BI dashboard is designed to present the results of the analysis in an interactive and visually understandable format.
-
-Dashboard Components:
-
-Key Performance Indicators (KPIs)
-
-Trend and comparison charts
-
-Category-wise analysis
-
-Summary tables
-
-Interactive filters and slicers
-
-Dashboard Preview:
-Add a screenshot of your Power BI dashboard here.
-
-![Power BI Dashboard](images/dashboard.png)
-
-Replace the image path with the actual location of your dashboard screenshot.
-
-🔍 Results & Key Insights
-
-The project aims to identify meaningful patterns, trends, and performance indicators from the dataset.
-
-The final findings may include:
-
-Important trends and changes over time.
-
-High-performing and low-performing categories.
-
-Relationships between relevant variables.
-
-Key metrics that support business decisions.
-
-Data-driven recommendations based on the analysis.
